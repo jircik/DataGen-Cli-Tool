@@ -1,5 +1,9 @@
 # datagen
 
+[![npm version](https://img.shields.io/npm/v/@jircik/datagen)](https://www.npmjs.com/package/@jircik/datagen)
+[![license](https://img.shields.io/npm/l/@jircik/datagen)](LICENSE)
+[![GitHub release](https://img.shields.io/github/v/release/jircik/DataGen-Cli-Tool)](https://github.com/jircik/DataGen-Cli-Tool/releases)
+
 A CLI tool for developers to populate PostgreSQL and MongoDB databases with realistic fake data — fast, schema-driven, and reproducible.
 
 Stop writing seed scripts by hand. Define your schema once and generate hundreds of rows in seconds.
@@ -330,12 +334,18 @@ src/
 
 ---
 
+## Releases
+
+See [GitHub Releases](https://github.com/jircik/DataGen-Cli-Tool/releases) for the full changelog.
+
+---
+
 ## Future Ideas
 
+- Multi-database support — extend driver compatibility beyond PostgreSQL and MongoDB to include MySQL, SQLite, and other popular databases.
 - `--seed <n>` flag for reproducible output
 - `datagen export` — generate data to CSV/JSON without a database
 - `datagen reset <table>` — truncate and re-populate
 - Many-to-many relation support
 - `--locale` flag for Faker.js locale (`pt_BR`, `en_US`, etc.)
 - Schema inference from existing table (`datagen schema infer users`)
-- Multi-database support — extend driver compatibility beyond PostgreSQL and MongoDB to include MySQL, SQLite, and other popular databases.
