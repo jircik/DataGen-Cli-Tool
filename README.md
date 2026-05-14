@@ -8,6 +8,8 @@ A CLI tool for developers to populate PostgreSQL and MongoDB databases with real
 
 Stop writing seed scripts by hand. Define your schema once and generate hundreds of rows in seconds.
 
+> Check out the project's **landing page** at [**datagen.jircik.dev**](http://datagen.jircik.dev).
+> 
 > **Claude Code plugin available** — use Claude to set up schemas, populate tables, and manage datagen from any project.
 > Install it from [Datagen-Claude-Plugin](https://github.com/jircik/DataGen-Claude-Plugin).
 
